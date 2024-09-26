@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>滑板培训机构</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #28a745;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 1em 0;
+        }
+        nav a {
+            color: #28a745;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            padding: 2em 0;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section h2 {
+            color: #28a745;
+        }
+        footer {
+            background: #28a745;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>滑板培训机构</h1>
+        <nav>
+            <a href="#about">关于我们</a>
+            <a href="#importance">滑板和运动的重要性</a>
+            <a href="#program">教学方案</a>
+            <a href="#media">宣传图片和视频</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="about" class="section">
+            <h2>关于我们</h2>
+            <p>欢迎来到我们的滑板培训机构！我们致力于提供高质量的滑板培训，帮助各年龄段的爱好者提高技能，享受滑板的乐趣。</p>
+        </div>
+
+        <div id="importance" class="section">
+            <h2>滑板和运动的重要性</h2>
+            <p>滑板不仅是一项有趣的运动，还能帮助提高平衡、协调性和耐力。滑板运动对身体健康和心理健康都有着积极的影响。</p>
+        </div>
+
+        <div id="program" class="section">
+            <h2>教学方案</h2>
+            <p>我们的教学方案包括基础技能训练、技巧提升和个人化指导。课程适合各种水平的滑板爱好者，从初学者到进阶玩家。</p>
+        </div>
+
+        <div id="media" class="section">
+            <h2>宣传图片和视频</h2>
+            <img src="your-image.jpg" alt="滑板活动">
+            <video controls>
+                <source src="your-video.mp4" type="video/mp4">
+                您的浏览器不支持视频播放。
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 滑板培训机构. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
